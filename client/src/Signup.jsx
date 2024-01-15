@@ -28,6 +28,9 @@ function Signup() {
       </div>
 
       <div id="signup-form">
+      <div className="form-toggle">
+          <h2>Signup</h2>
+        </div>
         <form onSubmit={handleSubmit}>
           <input type="email"
             placeholder='Enter your email'
